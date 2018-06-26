@@ -1,0 +1,65 @@
+//HUB terasic
+## TestName                ,  pkt/s,   Kops,   Kbps
+#1 large serial  write     ,   5925,  367.4, 2938.8
+#2 large serial  read+write,    188,   11.7,   93.5
+#3 small serial  write     ,   3924,    3.9,   31.4
+#4 small serial  read+write,     63,    0.1,    0.5
+#5 large bitbang write     ,   7371,  471.7,     -
+#6 large bitbang read+write,    188,   12.1,     -
+#7 small bitbang write     ,   3894,    3.9,     -
+#8 small bitbang read+write,     63,    0.1,     -
+
+//HUB v2
+## TestName                ,  pkt/s,   Kops,   Kbps
+#1 large serial  write     ,   1507,   93.5,  747.7
+#2 large serial  read+write,    775,   48.1,  384.6
+#3 small serial  write     ,   3950,    4.0,   31.6
+#4 small serial  read+write,   1924,    1.9,   15.4
+#5 large bitbang write     ,   2467,  157.9,     -
+#6 large bitbang read+write,   1035,   66.2,     -
+#7 small bitbang write     ,   3951,    4.0,     -
+#8 small bitbang read+write,   1932,    1.9,     -
+
+//HUB v3
+## TestName                ,  pkt/s,   Kops,   Kbps
+#1 large serial  write     ,   2185,  135.5, 1084.0
+#2 large serial  read+write,   1189,   73.8,  590.1
+#3 small serial  write     ,   3913,    3.9,   31.3
+#4 small serial  read+write,   2014,    2.0,   16.1
+#5 large bitbang write     ,   3046,  195.0,     -
+#6 large bitbang read+write,   1587,  101.6,     -
+#7 small bitbang write     ,   3899,    3.9,     -
+#8 small bitbang read+write,   2004,    2.0,     -
+
+//HUB v4-soft
+## TestName                ,  pkt/s,   Kops,   Kbps
+#1 large serial  write     ,   2460,  152.5, 1220.2
+#2 large serial  read+write,   1243,   77.1,  616.8
+#3 small serial  write     ,   3798,    3.8,   30.4
+#4 small serial  read+write,   1982,    2.0,   15.9
+#5 large bitbang write     ,   3708,  237.3,     -
+#6 large bitbang read+write,   1648,  105.5,     -
+#7 small bitbang write     ,   3832,    3.8,     -
+#8 small bitbang read+write,   2576,    2.6,     -
+
+//HUB v4+SPI12M
+## TestName                ,  pkt/s,   Kops,   Kbps
+#1 large serial  write     ,   5659,  350.9, 2807.1
+#2 large serial  read+write,   1974,  122.4,  979.1
+#3 small serial  write     ,   3857,    3.9,   30.9
+#4 small serial  read+write,   1929,    1.9,   15.4
+#5 large bitbang write     ,   3687,  236.0,     -
+#6 large bitbang read+write,   1677,  107.3,     -
+#7 small bitbang write     ,   3859,    3.9,     -
+#8 small bitbang read+write,   2553,    2.6,     -
+
+//HUB v7+SPI12M
+## TestName                ,  pkt/s,   Kops,   Kbps
+#1 large serial  write     ,   5757,  356.9, 2855.5
+#2 large serial  read+write,   2396,  148.6, 1188.5
+#3 small serial  write     ,   4082,    4.1,   32.7
+#4 small serial  read+write,   4005,    4.0,   32.0
+#5 large bitbang write     ,   5997,  383.8,     -
+#6 large bitbang read+write,   2639,  168.9,     -
+#7 small bitbang write     ,   4182,    4.2,     -
+#8 small bitbang read+write,   4003,    4.0,     -

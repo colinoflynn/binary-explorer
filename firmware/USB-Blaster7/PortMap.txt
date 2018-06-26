@@ -1,0 +1,14 @@
+Pin I/O Name
+RB4  I  TDO(SPI/PIO)
+RB5  I  ASDO
+RB6  O  TCK(SPI)
+RB7 
+
+RC0  O  TCK(PIO)
+RC1  O  TMS
+RC2  O  nCE
+RC3  O  nCS
+RC4  O  TDI(PIO)
+RC5  O  OPE
+RC6  O  n.c.
+RC7  O  TDI(SPI)
