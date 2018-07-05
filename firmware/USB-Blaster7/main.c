@@ -115,17 +115,33 @@ void HID_LowInt(void) { _asm goto LowIntCode _endasm }
 	
 #pragma interrupt HighIntCode
 void HighIntCode() {
+    static unsigned char cnt;
+    
+    
 		//Check which interrupt flag caused the interrupt.
 		//Service the interrupt, Clear the interrupt flag, Etc.
         #if defined(USB_INTERRUPT)
 	    USBDeviceTasks();
         #endif
+
+        
+        if (PIR1bits.TMR1IF) {
+            cnt++;
+            
+            if (cnt > 22){
+                LATCbits.LATC2 ^= 1;
+                cnt = 0;
+            }
+            PIR1bits.TMR1IF = 0; 
+        } 
+        
 }	//This return will be a "retfie fast", since this is in a #pragma interrupt section 
 
 #pragma interruptlow LowIntCode
 void LowIntCode() {
 		//Check which interrupt flag caused the interrupt.
-		//Service the interrupt, Clear the interrupt flag, Etc.
+		//Service the interrupt, Clear the interrupt flag, Etc. 
+    
 	
 }	//This return will be a "retfie", since this is in a #pragma interruptlow section 
 
@@ -169,7 +185,7 @@ void main(void) {
 	TADO=1;
 
 	//Initial value setup
-	OUTP=0b00011110;
+	OUTP=0b00011010;
 
 	//Peripheral setup
 	T0CON=0b10000000;		//On,Fcy/2
@@ -184,7 +200,32 @@ void main(void) {
 	#endif
 	ChangePIO();
 	#endif	
+  
+    //Setup clock for fast clock (50 KHz)
+    T2CON = 0b00000101; //TMR2ON, FCY/4
+    CCP1CONbits.P1M = 0b00;
+    CCP1CONbits.CCP1M = 0b1100; //PMW mode
+    
+    //50KHz output on RC5, set as output
+    TRISCbits.TRISC5 = 0;
+    PR2 = 60;
+    CCPR1L = 30;
+    PSTRCON = 0b00000001;
+    
+    //Setup clock for slow clock (1 Hz)
+    //
+    TMR1H = 0x00;
+    TMR1L = 0x00;
+    T1CONbits.T1CKPS1 = 1;
+    T1CONbits.T1CKPS0 = 0;
+    PIE1bits.TMR1IE = 1;  
+    T1CONbits.TMR1ON = 1;
+    INTCONbits.PEIE = 1;
+    INTCONbits.GIE = 1;
 
+    TRISCbits.RC2 = 0;   
+    LATCbits.LATC2 = 0;   
+    
 	//Program Initialize
 	InPacket[0][0]=0x31;
 	InPacket[0][1]=0x60;
