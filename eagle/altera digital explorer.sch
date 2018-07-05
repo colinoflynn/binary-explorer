@@ -14697,6 +14697,7 @@ Button commonly used for reset or general input. Spark Fun Electronics SKU : COM
 <text x="33.02" y="170.18" size="1.778" layer="97">This requires no common driver</text>
 <text x="18.034" y="178.562" size="1.778" layer="97">7SEG</text>
 <text x="330.2" y="25.4" size="5.08" layer="94">Binary Explorer - Altera</text>
+<text x="419.1" y="7.62" size="2.54" layer="94">04</text>
 </plain>
 <instances>
 <instance part="F1" gate="G$1" x="81.28" y="246.38"/>
@@ -16262,7 +16263,7 @@ Button commonly used for reset or general input. Spark Fun Electronics SKU : COM
 <wire x1="279.4" y1="198.12" x2="279.4" y2="190.5" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="EXP1_32KHZ" class="0">
+<net name="EXP1_50KHZ" class="0">
 <segment>
 <wire x1="167.64" y1="43.18" x2="165.1" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="43.18" x2="185.42" y2="43.18" width="0.1524" layer="91"/>
