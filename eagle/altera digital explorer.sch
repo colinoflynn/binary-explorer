@@ -14573,26 +14573,26 @@ Button commonly used for reset or general input. Spark Fun Electronics SKU : COM
 <part name="+3V6" library="supply1" deviceset="+3V3" device=""/>
 <part name="C9" library="rcl" deviceset="C-EU" device="C0603" value="68nF"/>
 <part name="SUPPLY21" library="supply2" deviceset="GND" device=""/>
-<part name="LED9" library="led" deviceset="LED" device="CHIP-LED0805"/>
+<part name="LED9" library="led" deviceset="LED" device="CHIP-LED0805" value="GRN"/>
 <part name="R16" library="rcl" deviceset="R-US_" device="R0603" value="470R"/>
 <part name="R17" library="rcl" deviceset="R-US_" device="R0603" value="470R"/>
 <part name="SUPPLY22" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY23" library="supply2" deviceset="GND" device=""/>
-<part name="LED10" library="led" deviceset="LED" device="CHIP-LED0805"/>
+<part name="LED10" library="led" deviceset="LED" device="CHIP-LED0805" value="GRN"/>
 <part name="IC1" library="altera" deviceset="EPM240T100C4" device=""/>
 <part name="JP2" library="pinhead" deviceset="PINHD-1X2" device=""/>
 <part name="JP3" library="pinhead" deviceset="PINHD-1X2" device=""/>
 <part name="U$1" library="customs" deviceset="BB-400TP" device=""/>
 <part name="7SEG1" library="led-7-segment" deviceset="S4301B" device="" value="S4301JR"/>
 <part name="7SEG2" library="led-7-segment" deviceset="S4301B" device="" value="S4301JR"/>
-<part name="LED1" library="led" deviceset="LED" device="CHIP-LED0805"/>
-<part name="LED2" library="led" deviceset="LED" device="CHIP-LED0805"/>
-<part name="LED3" library="led" deviceset="LED" device="CHIP-LED0805"/>
-<part name="LED4" library="led" deviceset="LED" device="CHIP-LED0805"/>
-<part name="LED5" library="led" deviceset="LED" device="CHIP-LED0805"/>
-<part name="LED6" library="led" deviceset="LED" device="CHIP-LED0805"/>
-<part name="LED7" library="led" deviceset="LED" device="CHIP-LED0805"/>
-<part name="LED8" library="led" deviceset="LED" device="CHIP-LED0805"/>
+<part name="LED1" library="led" deviceset="LED" device="CHIP-LED0805" value="RED"/>
+<part name="LED2" library="led" deviceset="LED" device="CHIP-LED0805" value="YLW"/>
+<part name="LED3" library="led" deviceset="LED" device="CHIP-LED0805" value="GRN"/>
+<part name="LED4" library="led" deviceset="LED" device="CHIP-LED0805" value="GRN"/>
+<part name="LED5" library="led" deviceset="LED" device="CHIP-LED0805" value="RED"/>
+<part name="LED6" library="led" deviceset="LED" device="CHIP-LED0805" value="YLW"/>
+<part name="LED7" library="led" deviceset="LED" device="CHIP-LED0805" value="GRN"/>
+<part name="LED8" library="led" deviceset="LED" device="CHIP-LED0805" value="GRN"/>
 <part name="SUPPLY9" library="supply2" deviceset="GND" device=""/>
 <part name="JP4" library="pinhead" deviceset="PINHD-1X5" device=""/>
 <part name="JP5" library="pinhead" deviceset="PINHD-1X10" device=""/>
@@ -14607,13 +14607,13 @@ Button commonly used for reset or general input. Spark Fun Electronics SKU : COM
 <part name="SW4" library="customs" deviceset="SS-12E10" device=""/>
 <part name="SW5" library="customs" deviceset="SS-12E10" device=""/>
 <part name="SUPPLY11" library="supply2" deviceset="GND" device=""/>
-<part name="R6" library="resistor" deviceset="R-US_" device="R0603"/>
-<part name="R7" library="resistor" deviceset="R-US_" device="R0603"/>
-<part name="R8" library="resistor" deviceset="R-US_" device="R0603"/>
-<part name="R9" library="resistor" deviceset="R-US_" device="R0603"/>
-<part name="R10" library="resistor" deviceset="R-US_" device="R0603"/>
+<part name="R6" library="resistor" deviceset="R-US_" device="R0603" value="DNM"/>
+<part name="R7" library="resistor" deviceset="R-US_" device="R0603" value="DNM"/>
+<part name="R8" library="resistor" deviceset="R-US_" device="R0603" value="DNM"/>
+<part name="R9" library="resistor" deviceset="R-US_" device="R0603" value="DNM"/>
+<part name="R10" library="resistor" deviceset="R-US_" device="R0603" value="DNM"/>
 <part name="SW6" library="customs" deviceset="SS-12E10" device=""/>
-<part name="R15" library="resistor" deviceset="R-US_" device="R0603"/>
+<part name="R15" library="resistor" deviceset="R-US_" device="R0603" value="DNM"/>
 <part name="SUPPLY19" library="supply2" deviceset="GND" device=""/>
 <part name="+3V7" library="supply1" deviceset="+3V3" device=""/>
 <part name="SUPPLY20" library="supply2" deviceset="GND" device=""/>
@@ -14641,7 +14641,7 @@ Button commonly used for reset or general input. Spark Fun Electronics SKU : COM
 <part name="+3V15" library="supply1" deviceset="+3V3" device=""/>
 <part name="SUPPLY3" library="supply2" deviceset="GND" device=""/>
 <part name="IC2" library="pic18f14k50" deviceset="PIC18F14K50" device="SO"/>
-<part name="R30" library="rcl" deviceset="R-US_" device="R0603"/>
+<part name="R30" library="rcl" deviceset="R-US_" device="R0603" value="51R"/>
 <part name="+3V16" library="supply1" deviceset="+3V3" device=""/>
 <part name="SUPPLY10" library="supply2" deviceset="GND" device=""/>
 <part name="R1" library="resistor" deviceset="R-US_" device="R0603" value="330R"/>
@@ -14649,7 +14649,7 @@ Button commonly used for reset or general input. Spark Fun Electronics SKU : COM
 <part name="R3" library="resistor" deviceset="R-US_" device="R0603" value="330R"/>
 <part name="R4" library="resistor" deviceset="R-US_" device="R0603" value="330R"/>
 <part name="R5" library="resistor" deviceset="R-US_" device="R0603" value="330R"/>
-<part name="R11" library="resistor" deviceset="R-US_" device="R0603"/>
+<part name="R11" library="resistor" deviceset="R-US_" device="R0603" value="330R"/>
 <part name="R12" library="resistor" deviceset="R-US_" device="R0603" value="330R"/>
 <part name="R13" library="resistor" deviceset="R-US_" device="R0603" value="330R"/>
 <part name="R14" library="resistor" deviceset="R-US_" device="R0603" value="1k"/>
@@ -14673,7 +14673,7 @@ Button commonly used for reset or general input. Spark Fun Electronics SKU : COM
 <part name="SUPPLY1" library="supply2" deviceset="GND" device=""/>
 <part name="C3" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
 <part name="SUPPLY4" library="supply2" deviceset="GND" device=""/>
-<part name="LED11" library="led" deviceset="LED" device="CHIP-LED0805"/>
+<part name="LED11" library="led" deviceset="LED" device="CHIP-LED0805" value="RED"/>
 <part name="R38" library="rcl" deviceset="R-US_" device="R0603" value="470R"/>
 <part name="SUPPLY7" library="supply2" deviceset="GND" device=""/>
 <part name="J1" library="dp_devices" deviceset="CON_HEADER_1X05" device="-PTH"/>
@@ -14735,14 +14735,38 @@ Button commonly used for reset or general input. Spark Fun Electronics SKU : COM
 <instance part="U$1" gate="G$1" x="248.92" y="172.72"/>
 <instance part="7SEG1" gate="G$1" x="48.26" y="193.04"/>
 <instance part="7SEG2" gate="G$1" x="78.74" y="193.04"/>
-<instance part="LED1" gate="G$1" x="393.7" y="111.76" rot="R90"/>
-<instance part="LED2" gate="G$1" x="401.32" y="106.68" rot="R90"/>
-<instance part="LED3" gate="G$1" x="393.7" y="101.6" rot="R90"/>
-<instance part="LED4" gate="G$1" x="401.32" y="96.52" rot="R90"/>
-<instance part="LED5" gate="G$1" x="393.7" y="91.44" rot="R90"/>
-<instance part="LED6" gate="G$1" x="401.32" y="86.36" rot="R90"/>
-<instance part="LED7" gate="G$1" x="393.7" y="81.28" rot="R90"/>
-<instance part="LED8" gate="G$1" x="401.32" y="76.2" rot="R90"/>
+<instance part="LED1" gate="G$1" x="393.7" y="111.76" smashed="yes" rot="R90">
+<attribute name="NAME" x="398.272" y="115.316" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="418.592" y="112.395" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="LED2" gate="G$1" x="401.32" y="106.68" smashed="yes" rot="R90">
+<attribute name="NAME" x="405.892" y="110.236" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="418.592" y="107.315" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="LED3" gate="G$1" x="393.7" y="101.6" smashed="yes" rot="R90">
+<attribute name="NAME" x="398.272" y="105.156" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="418.592" y="102.235" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="LED4" gate="G$1" x="401.32" y="96.52" smashed="yes" rot="R90">
+<attribute name="NAME" x="405.892" y="100.076" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="418.592" y="97.155" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="LED5" gate="G$1" x="393.7" y="91.44" smashed="yes" rot="R90">
+<attribute name="NAME" x="398.272" y="94.996" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="418.592" y="92.075" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="LED6" gate="G$1" x="401.32" y="86.36" smashed="yes" rot="R90">
+<attribute name="NAME" x="405.892" y="89.916" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="418.592" y="86.995" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="LED7" gate="G$1" x="393.7" y="81.28" smashed="yes" rot="R90">
+<attribute name="NAME" x="398.272" y="84.836" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="418.592" y="81.915" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="LED8" gate="G$1" x="401.32" y="76.2" smashed="yes" rot="R90">
+<attribute name="NAME" x="405.892" y="79.756" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="418.592" y="76.835" size="1.778" layer="96" rot="R180"/>
+</instance>
 <instance part="SUPPLY9" gate="GND" x="411.48" y="68.58"/>
 <instance part="JP4" gate="A" x="327.66" y="104.14"/>
 <instance part="JP5" gate="A" x="152.4" y="193.04"/>
@@ -14757,28 +14781,82 @@ Button commonly used for reset or general input. Spark Fun Electronics SKU : COM
 <instance part="SW4" gate="G$1" x="246.38" y="76.2" rot="MR270"/>
 <instance part="SW5" gate="G$1" x="246.38" y="48.26" rot="MR270"/>
 <instance part="SUPPLY11" gate="GND" x="215.9" y="7.62"/>
-<instance part="R6" gate="G$1" x="261.62" y="144.78"/>
-<instance part="R7" gate="G$1" x="261.62" y="119.38"/>
-<instance part="R8" gate="G$1" x="261.62" y="96.52"/>
-<instance part="R9" gate="G$1" x="261.62" y="73.66"/>
-<instance part="R10" gate="G$1" x="261.62" y="45.72"/>
+<instance part="R6" gate="G$1" x="261.62" y="144.78" smashed="yes">
+<attribute name="NAME" x="257.81" y="146.2786" size="1.778" layer="95"/>
+<attribute name="VALUE" x="257.81" y="141.478" size="1.778" layer="96"/>
+</instance>
+<instance part="R7" gate="G$1" x="261.62" y="119.38" smashed="yes">
+<attribute name="NAME" x="257.81" y="120.8786" size="1.778" layer="95"/>
+<attribute name="VALUE" x="257.81" y="116.078" size="1.778" layer="96"/>
+</instance>
+<instance part="R8" gate="G$1" x="261.62" y="96.52" smashed="yes">
+<attribute name="NAME" x="257.81" y="98.0186" size="1.778" layer="95"/>
+<attribute name="VALUE" x="257.81" y="93.218" size="1.778" layer="96"/>
+</instance>
+<instance part="R9" gate="G$1" x="261.62" y="73.66" smashed="yes">
+<attribute name="NAME" x="257.81" y="75.1586" size="1.778" layer="95"/>
+<attribute name="VALUE" x="257.81" y="70.358" size="1.778" layer="96"/>
+</instance>
+<instance part="R10" gate="G$1" x="261.62" y="45.72" smashed="yes">
+<attribute name="NAME" x="257.81" y="47.2186" size="1.778" layer="95"/>
+<attribute name="VALUE" x="257.81" y="42.418" size="1.778" layer="96"/>
+</instance>
 <instance part="SW6" gate="G$1" x="246.38" y="20.32" rot="MR270"/>
-<instance part="R15" gate="G$1" x="261.62" y="17.78"/>
+<instance part="R15" gate="G$1" x="261.62" y="17.78" smashed="yes">
+<attribute name="NAME" x="257.81" y="19.2786" size="1.778" layer="95"/>
+<attribute name="VALUE" x="257.81" y="14.478" size="1.778" layer="96"/>
+</instance>
 <instance part="SUPPLY19" gate="GND" x="208.28" y="177.8"/>
 <instance part="+3V7" gate="G$1" x="210.82" y="187.96"/>
 <instance part="SUPPLY20" gate="GND" x="208.28" y="165.1"/>
-<instance part="R18" gate="G$1" x="228.6" y="15.24" rot="R180"/>
-<instance part="R19" gate="G$1" x="228.6" y="43.18" rot="R180"/>
-<instance part="R20" gate="G$1" x="228.6" y="71.12" rot="R180"/>
-<instance part="R21" gate="G$1" x="228.6" y="93.98" rot="R180"/>
-<instance part="R22" gate="G$1" x="228.6" y="116.84" rot="R180"/>
-<instance part="R23" gate="G$1" x="228.6" y="142.24" rot="R180"/>
-<instance part="R24" gate="G$1" x="228.6" y="147.32" rot="R180"/>
-<instance part="R25" gate="G$1" x="228.6" y="99.06" rot="R180"/>
-<instance part="R26" gate="G$1" x="228.6" y="76.2" rot="R180"/>
-<instance part="R27" gate="G$1" x="228.6" y="48.26" rot="R180"/>
-<instance part="R28" gate="G$1" x="228.6" y="20.32" rot="R180"/>
-<instance part="R29" gate="G$1" x="228.6" y="121.92" rot="R180"/>
+<instance part="R18" gate="G$1" x="228.6" y="15.24" smashed="yes" rot="R180">
+<attribute name="NAME" x="227.33" y="18.8214" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="232.41" y="18.542" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="R19" gate="G$1" x="228.6" y="43.18" smashed="yes" rot="R180">
+<attribute name="NAME" x="227.33" y="46.7614" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="232.41" y="46.482" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="R20" gate="G$1" x="228.6" y="71.12" smashed="yes" rot="R180">
+<attribute name="NAME" x="224.79" y="74.7014" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="232.41" y="74.422" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="R21" gate="G$1" x="228.6" y="93.98" smashed="yes" rot="R180">
+<attribute name="NAME" x="224.79" y="97.5614" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="232.41" y="97.282" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="R22" gate="G$1" x="228.6" y="116.84" smashed="yes" rot="R180">
+<attribute name="NAME" x="224.79" y="120.4214" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="232.41" y="120.142" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="R23" gate="G$1" x="228.6" y="142.24" smashed="yes" rot="R180">
+<attribute name="NAME" x="224.79" y="145.8214" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="232.41" y="145.542" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="R24" gate="G$1" x="228.6" y="147.32" smashed="yes" rot="R180">
+<attribute name="NAME" x="224.79" y="150.9014" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="232.41" y="150.622" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="R25" gate="G$1" x="228.6" y="99.06" smashed="yes" rot="R180">
+<attribute name="NAME" x="224.79" y="102.6414" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="232.41" y="102.362" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="R26" gate="G$1" x="228.6" y="76.2" smashed="yes" rot="R180">
+<attribute name="NAME" x="224.79" y="79.7814" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="232.41" y="79.502" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="R27" gate="G$1" x="228.6" y="48.26" smashed="yes" rot="R180">
+<attribute name="NAME" x="227.33" y="51.8414" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="232.41" y="51.562" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="R28" gate="G$1" x="228.6" y="20.32" smashed="yes" rot="R180">
+<attribute name="NAME" x="227.33" y="23.9014" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="232.41" y="23.622" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="R29" gate="G$1" x="228.6" y="121.92" smashed="yes" rot="R180">
+<attribute name="NAME" x="224.79" y="125.5014" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="232.41" y="125.222" size="1.778" layer="96" rot="R180"/>
+</instance>
 <instance part="JP12" gate="A" x="373.38" y="149.86"/>
 <instance part="+3V9" gate="G$1" x="360.68" y="157.48" rot="R90"/>
 <instance part="SUPPLY24" gate="GND" x="396.24" y="162.56"/>
@@ -14794,22 +14872,70 @@ Button commonly used for reset or general input. Spark Fun Electronics SKU : COM
 <instance part="R30" gate="G$1" x="327.66" y="203.2"/>
 <instance part="+3V16" gate="G$1" x="281.94" y="254"/>
 <instance part="SUPPLY10" gate="GND" x="330.2" y="226.06"/>
-<instance part="R1" gate="G$1" x="383.54" y="111.76"/>
-<instance part="R2" gate="G$1" x="383.54" y="106.68"/>
-<instance part="R3" gate="G$1" x="383.54" y="101.6"/>
-<instance part="R4" gate="G$1" x="383.54" y="96.52"/>
-<instance part="R5" gate="G$1" x="383.54" y="91.44"/>
-<instance part="R11" gate="G$1" x="383.54" y="86.36"/>
-<instance part="R12" gate="G$1" x="383.54" y="81.28"/>
-<instance part="R13" gate="G$1" x="383.54" y="76.2"/>
-<instance part="R14" gate="G$1" x="119.38" y="203.2"/>
-<instance part="R31" gate="G$1" x="129.54" y="200.66"/>
-<instance part="R32" gate="G$1" x="119.38" y="198.12"/>
-<instance part="R33" gate="G$1" x="129.54" y="195.58"/>
-<instance part="R34" gate="G$1" x="119.38" y="193.04"/>
-<instance part="R35" gate="G$1" x="129.54" y="190.5"/>
-<instance part="R36" gate="G$1" x="119.38" y="187.96"/>
-<instance part="R37" gate="G$1" x="129.54" y="185.42"/>
+<instance part="R1" gate="G$1" x="383.54" y="111.76" smashed="yes">
+<attribute name="NAME" x="379.73" y="113.2586" size="1.778" layer="95"/>
+<attribute name="VALUE" x="384.81" y="113.538" size="1.778" layer="96"/>
+</instance>
+<instance part="R2" gate="G$1" x="383.54" y="106.68" smashed="yes">
+<attribute name="NAME" x="379.73" y="108.1786" size="1.778" layer="95"/>
+<attribute name="VALUE" x="384.81" y="108.458" size="1.778" layer="96"/>
+</instance>
+<instance part="R3" gate="G$1" x="383.54" y="101.6" smashed="yes">
+<attribute name="NAME" x="379.73" y="103.0986" size="1.778" layer="95"/>
+<attribute name="VALUE" x="384.81" y="103.378" size="1.778" layer="96"/>
+</instance>
+<instance part="R4" gate="G$1" x="383.54" y="96.52" smashed="yes">
+<attribute name="NAME" x="379.73" y="98.0186" size="1.778" layer="95"/>
+<attribute name="VALUE" x="384.81" y="98.298" size="1.778" layer="96"/>
+</instance>
+<instance part="R5" gate="G$1" x="383.54" y="91.44" smashed="yes">
+<attribute name="NAME" x="379.73" y="92.9386" size="1.778" layer="95"/>
+<attribute name="VALUE" x="384.81" y="93.218" size="1.778" layer="96"/>
+</instance>
+<instance part="R11" gate="G$1" x="383.54" y="86.36" smashed="yes">
+<attribute name="NAME" x="379.73" y="87.8586" size="1.778" layer="95"/>
+<attribute name="VALUE" x="384.81" y="88.138" size="1.778" layer="96"/>
+</instance>
+<instance part="R12" gate="G$1" x="383.54" y="81.28" smashed="yes">
+<attribute name="NAME" x="379.73" y="82.7786" size="1.778" layer="95"/>
+<attribute name="VALUE" x="384.81" y="83.058" size="1.778" layer="96"/>
+</instance>
+<instance part="R13" gate="G$1" x="383.54" y="76.2" smashed="yes">
+<attribute name="NAME" x="379.73" y="77.6986" size="1.778" layer="95"/>
+<attribute name="VALUE" x="384.81" y="77.978" size="1.778" layer="96"/>
+</instance>
+<instance part="R14" gate="G$1" x="119.38" y="203.2" smashed="yes">
+<attribute name="NAME" x="115.57" y="204.6986" size="1.778" layer="95"/>
+<attribute name="VALUE" x="123.19" y="204.978" size="1.778" layer="96"/>
+</instance>
+<instance part="R31" gate="G$1" x="129.54" y="200.66" smashed="yes">
+<attribute name="NAME" x="125.73" y="202.1586" size="1.778" layer="95"/>
+<attribute name="VALUE" x="133.35" y="202.438" size="1.778" layer="96"/>
+</instance>
+<instance part="R32" gate="G$1" x="119.38" y="198.12" smashed="yes">
+<attribute name="NAME" x="115.57" y="199.6186" size="1.778" layer="95"/>
+<attribute name="VALUE" x="115.57" y="194.818" size="1.778" layer="96"/>
+</instance>
+<instance part="R33" gate="G$1" x="129.54" y="195.58" smashed="yes">
+<attribute name="NAME" x="125.73" y="197.0786" size="1.778" layer="95"/>
+<attribute name="VALUE" x="133.35" y="197.358" size="1.778" layer="96"/>
+</instance>
+<instance part="R34" gate="G$1" x="119.38" y="193.04" smashed="yes">
+<attribute name="NAME" x="115.57" y="194.5386" size="1.778" layer="95"/>
+<attribute name="VALUE" x="120.65" y="194.818" size="1.778" layer="96"/>
+</instance>
+<instance part="R35" gate="G$1" x="129.54" y="190.5" smashed="yes">
+<attribute name="NAME" x="125.73" y="191.9986" size="1.778" layer="95"/>
+<attribute name="VALUE" x="133.35" y="192.278" size="1.778" layer="96"/>
+</instance>
+<instance part="R36" gate="G$1" x="119.38" y="187.96" smashed="yes">
+<attribute name="NAME" x="115.57" y="189.4586" size="1.778" layer="95"/>
+<attribute name="VALUE" x="120.65" y="189.738" size="1.778" layer="96"/>
+</instance>
+<instance part="R37" gate="G$1" x="129.54" y="185.42" smashed="yes">
+<attribute name="NAME" x="125.73" y="186.9186" size="1.778" layer="95"/>
+<attribute name="VALUE" x="130.81" y="187.198" size="1.778" layer="96"/>
+</instance>
 <instance part="+3V2" gate="G$1" x="111.76" y="154.94"/>
 <instance part="SUPPLY2" gate="GND" x="96.52" y="157.48"/>
 <instance part="SUPPLY12" gate="GND" x="17.78" y="86.36"/>
