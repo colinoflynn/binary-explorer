@@ -10,6 +10,8 @@ Binary Explorer includes:
 - Switches, LEDs, and 7-segment displays
 - Clocks for CPLD
 
+![BORA Board](BORA-Top-small-900x700.jpg)
+
 ## Reference Designs / Examples ##
 
 A number of templates/examples are provided for the Altera Quartus software. Always use these templates, as they contain considerable critical configuration regarding the device in use and board-specific setting (including pinouts and use of global disable).
