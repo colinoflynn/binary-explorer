@@ -10,6 +10,7 @@ Binary Explorer includes:
 - Switches, LEDs, and 7-segment displays
 - Clocks for CPLD
 
+The following is the old rev design, which looks almost identical from the top-side:
 ![BORA Board](BORA-Top-small-900x700.jpg)
 
 ## Reference Designs / Examples ##
